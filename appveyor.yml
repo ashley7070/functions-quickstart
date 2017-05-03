@@ -1,7 +1,5 @@
 version: 1.0.{build}
-build:
-  verbosity: minimal
+build: off
 artifacts:
 - path: HttpTriggerJS1
   name: Functions
-
