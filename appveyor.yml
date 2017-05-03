@@ -1,2 +1,7 @@
-# Don't actually build.
-build: off
+version: 1.0.{build}
+build:
+  verbosity: minimal
+artifacts:
+- path: HttpTriggerJS1
+  name: Functions
+
