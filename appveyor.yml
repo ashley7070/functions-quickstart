@@ -3,3 +3,11 @@ build: off
 artifacts:
 - path: HttpTriggerJS1
   name: Functions
+deploy:
+- provider: WebDeploy
+  server: https://ash-tuvp-spike.scm.azurewebsites.net:443/msdeploy.axd?site=ash-tuvp-spike
+  website: ash-tuvp-spike
+  username: $ash-tuvp-spike
+  password:
+    secure: h4fSO4bSqsFThSEmBtvdzHXrKweP97YrOk046DST2AWXSnud1Lfz351X52JU1n/hiG8XlE9qVsGVK5JuiWls6w==
+  artifact: Functions
