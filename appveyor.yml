@@ -5,9 +5,10 @@ artifacts:
   name: Functions
 deploy:
 - provider: WebDeploy
-  server: https://ash-tuvp-spike.scm.azurewebsites.net:443/msdeploy.axd?site=ash-tuvp-spike
-  website: ash-tuvp-spike
-  username: $ash-tuvp-spike
+  server: https://functionshello.scm.azurewebsites.net:443/msdeploy.axd?site=FunctionsHello
+  website: FunctionsHello
+  username: FunctionsHello\$FunctionsHello
   password:
-    secure: h4fSO4bSqsFThSEmBtvdzHXrKweP97YrOk046DST2AWXSnud1Lfz351X52JU1n/hiG8XlE9qVsGVK5JuiWls6w==
+    secure: 2Vrwlc7+Z8X7WrD2V5B2RxYPUgTJFmV++Z3RO3tRTThdWlr+a+0CK+ek6ttL5gvJFKOCaYtXn+H5JShsahk4Ew==
   artifact: Functions
+
