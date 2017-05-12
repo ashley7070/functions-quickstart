@@ -7,7 +7,7 @@ deploy:
 - provider: WebDeploy
   server: https://functionshello.scm.azurewebsites.net:443/msdeploy.axd?site=FunctionsHello
   website: FunctionsHello
-  username: FunctionsHello\$FunctionsHello
+  username: $FunctionsHello
   password:
     secure: 2Vrwlc7+Z8X7WrD2V5B2RxYPUgTJFmV++Z3RO3tRTThdWlr+a+0CK+ek6ttL5gvJFKOCaYtXn+H5JShsahk4Ew==
   artifact: Functions
